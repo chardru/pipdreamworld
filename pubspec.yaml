@@ -1,0 +1,33 @@
+name: pip_protfolio
+description: "Pip's Dream World — A story-driven interactive Flutter Web experience"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  audioplayers: ^6.4.0
+  confetti: ^0.8.0
+  shared_preferences: ^2.3.4
+  url_launcher: ^6.3.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
